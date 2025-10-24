@@ -518,7 +518,7 @@ header .carousel-control-next {
 
 #Story .container .item .img:nth-of-type(1) {
     position: absolute;
-    top: 0%;
+    top:-12%;
     right: 0%;
 }
 
@@ -1077,4 +1077,5 @@ footer p span {
 .loading .second-layer {
     top: 0;
     left: 0;
+
 }
