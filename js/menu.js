@@ -2,19 +2,19 @@ var BreakFast = [
     {
         'id': 1,
         'name': 'Everyday Pancakes',
-        'image': 'BF-1.webP',
+        'image': 'BF-1.webp',
         'price': '$35.92',
     },
         {
         'id': 2,
         'name': 'Waffles',
-        'image': 'BF-2.webP',
+        'image': 'BF-2.webp',
         'price': '$38.36',
     },
         {
         'id':3,
         'name': 'French Toast',
-        'image': 'BF-3.webP',
+        'image': 'BF-3.webp',
         'price': '$47.88',
     },
         {
@@ -26,13 +26,13 @@ var BreakFast = [
         {
         'id': 5,
         'name': 'Avocado Toast',
-        'image': 'BF-5.webP',
+        'image': 'BF-5.webp',
         'price': '$43.78',
     },
         {
         'id': 6,
         'name': 'Scallion Egg Wrap',
-        'image': 'BF-6.webP',
+        'image': 'BF-6.webp',
         'price': '$31.20',
     }
 ];
@@ -80,37 +80,37 @@ var Dinner = [
     {
         'id': 1,
         'name': 'Creamy Beans',
-        'image': 'Di-1.webP',
+        'image': 'Di-1.webp',
         'price': '$42.85',
     },
         {
         'id': 2,
         'name': 'Classic Shrimp',
-        'image': 'Di-2.webP',
+        'image': 'Di-2.webp',
         'price': '$49.42',
     },
         {
         'id':3,
         'name': 'Kung Pao Chicken',
-        'image': 'Di-3.webP',
+        'image': 'Di-3.webp',
         'price': '$28.16',
     },
         {
         'id': 4,
         'name': 'Elena Sandwich',
-        'image': 'Di-4.webP',
+        'image': 'Di-4.webp',
         'price': '$29.00',
     },
         {
         'id': 5,
         'name': 'Turmeric Chicken',
-        'image': 'Di-5.webP',
+        'image': 'Di-5.webp',
         'price': '$45.23',
     },
         {
         'id': 6,
         'name': 'Original Nachos',
-        'image': 'Di-6.webP',
+        'image': 'Di-6.webp',
         'price': '$26.45',
     }
 ];
@@ -119,37 +119,37 @@ var Drinks = [
     {
         'id': 1,
         'name': 'Blueberry Lemonade',
-        'image': 'Dr-1.webP',
+        'image': 'Dr-1.webp',
         'price': '$36.49',
     },
         {
         'id': 2,
         'name': 'Frozen Lemonade',
-        'image': 'Dr-2.webP',
+        'image': 'Dr-2.webp',
         'price': '$41.50',
     },
         {
         'id':3,
         'name': 'Raspberry Lemonade',
-        'image': 'Dr-3.webP',
+        'image': 'Dr-3.webp',
         'price': '$48.14',
     },
         {
         'id': 4,
         'name': 'Raspberry Lemonade',
-        'image': 'Dr-4.webP',
+        'image': 'Dr-4.webp',
         'price': '$46.99',
     },
         {
         'id': 5,
         'name': 'Honeydew Melon',
-        'image': 'Dr-5.webP',
+        'image': 'Dr-5.webp',
         'price': '$43.41',
     },
         {
         'id': 6,
         'name': 'Changing Lemonade',
-        'image': 'Dr-6.webP',
+        'image': 'Dr-6.webp',
         'price': '$42.42',
     }
 ];
@@ -159,4 +159,5 @@ var allMenu = [
     ...Lunch,
     ...Dinner,
     ...Drinks
+
 ]
