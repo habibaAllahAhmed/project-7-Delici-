@@ -45,14 +45,12 @@ function prevSlider() {
 }
 
 // function that change active of links
-function activateLinks(links, activeSelector) {
-    links.forEach(link => {
-    link.addEventListener("click", function (e) {
-
-    activeSelector.classList.remove("active");
-
-    link.classList.add("active");
-    });
+function activateLinks(elements, activeElement) {
+    elements.forEach((el) => {
+        el.addEventListener("click", function() {
+            elements.forEach(item => item.classList.remove("active"));
+            this.classList.add("active");
+        });
     });
 }
 
@@ -186,3 +184,4 @@ function showMenuPopup(index , popupSection) {
 
     showItemOfIndex();
         }
+
