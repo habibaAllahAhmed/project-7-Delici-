@@ -1,631 +1,197 @@
 @media (max-width: 1300px) {
-    header nav .container-fluid {
-        width: 95%;
-        padding: 10px 3px;
+    nav.navbar .navbar-brand {
+        width: 25%;
     }
 
-    header nav .container-fluid img {
-        width: 42%;
+    nav .navbar-toggler .navbar-toggler-icon {
+        color: var(--main-color);
     }
 
-    .title h5 {
-        font-size: 16px;
+    nav.navbar .navbar-nav .nav-item {
+        margin-right: 0 !important;
     }
 
-    .title img {
-        width: 30%;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 30px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 12px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button {
-        padding: 10px 20px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button a {
-        font-size: 12px;
-    }
-
-    header .carousel-inner .carousel-item .header-book {
-        bottom: 20px;
-        left: 20px;
-    }
-
-    header .carousel-inner .carousel-item .book,
-    header .carousel-inner .carousel-item .square-animation {
-        width: 80px;
-        height: 80px;
-    }
-
-    header .carousel-inner .carousel-item .book p {
-        font-size: 10px;
-    }
-
-    #About .img-left {
-        z-index: -1;
-    }
-
-    #About .img-right {
-        z-index: -1;
-    }
-
-    #About .title img {
-        width: 30%;
-    }
-
-    #About .container {
-        z-index: 4;
-    }
-
-    #About .container .intro h2 {
-        font-size: 30px;
-    }
-
-    #About .container .intro p {
-        width: 100%;
-        padding: 0 30px;
-    }
-
-    #About .container .row .item .img {
-        padding: 40px 0;
-    }
-
-    #About .container .item h4 {
-        font-size: 25px;
+    nav.navbar .navbar-collapse ul:nth-of-type(2) {
         margin-top: 15px;
+        margin-bottom: 0px;
     }
 
-    #About .container .row .part {
-        margin-top: 50px;
-    }
-
-    #Story .container h2 {
-        font-size: 30px;
-    }
-
-    #Story .container p {
-        padding: 0 30px;
-        font-size: 14px;
-    }
-
-    #Story .container .item .img:nth-of-type(1) {
-        top: -20%;
-        right: -5%;
-    }
-
-    #Story .container .item .img:nth-of-type(1) img {
-        width: 110px;
-    }
-
-    #Story .container .item .img:nth-of-type(1)::before {
-        width: 110px;
-        height: 110px;
-    }
-
-    #Story .container .item .img:nth-of-type(2) {
-        width: 80%;
-        max-width: 300px;
-        margin: auto;
-    }
-
-    #Story .container .item .img:nth-of-type(3) {
-        bottom: -10%;
-        left: -10%;
-    }
-
-    #Story .container .item .img:nth-of-type(3) img {
-        width: 75%;
-        max-width: 185px;
-    }
-
-    #Story .container .item .btn {
-        padding: 10px 20px;
-    }
-
-    #Special-dish .content {
-        padding-left: 20px;
-    }
-
-    #Special-dish .part2 .title img {
-        width: 35%;
-    }
-
-    #Special-dish .part2 .item {
-        padding: 30px 20px 30px 20px;
-    }
-
-    #Special-dish .part2 .item h2 {
-        font-size: 30px;
-    }
-
-    #Special-dish .part2 .item p {
-        font-size: 14px;
-    }
-
-    #Special-dish .part2 .item h6 {
-        font-size: 24px;
-    }
-
-    #Special-dish .part2 .item .btn {
-        padding: 10px 20px;
-    }
-
-    #Story .container .item .img:nth-of-type(2) {
-        width: 90%;
-    }
-
-    #Story .container .item .img:nth-of-type(3) img {
-        width: 85%;
-    }
-
-    #Chefs .container .title img {
-        width: 25%;
-    }
-
-    #Chefs .container h2 {
-        font-size: 30px;
-    }
-
-    #Chefs .container .item {
-        width: 300px;
-        margin: auto;
-    }
-
-    #Chefs .container .row .item ul {
-        top: 47%;
-        left: 10%;
-    }
-
-    #Chefs .container .row .item .info h2 {
-        font-size: 21px;
-    }
-
-    #Contact .box {
-        width: 320px;
-        padding: 50px 40px;
-    }
-
-    #Contact .box .head .info p,
-    #Contact .box .head .info i {
-        font-size: 13px;
-    }
-
-    #Contact .box .body .inputs {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    footer p {
-        font-size: 13px;
-    }
-
-    .book-popUp .box {
-        width: 300px;
-        padding: 20px 30px;
-    }
-
-    .book-popUp .box .body h2 {
-        font-size: 24px !important;
-    }
-
-    .book-popUp .box .body form .row:nth-of-type(2) .item input {
-        width: 240.4px;
-    }
-
-    .book-popUp .box .body .btn {
-        padding: 12px 25px;
-    }
-
-    .book-popUp i {
-        font-size: 20px;
-    }
-
-    #Menu .container .title img {
-        width: 25%;
-    }
-
-    #Menu h2 {
-        font-size: 30px;
-    }
-
-    #Menu .container .menu-list {
-        overflow-x: auto;
-    }
-
-    #Menu .container ul {
-        width: fit-content;
-    }
-
-    #Menu .container .row .frame {
-        width: 80px;
-        height: 80px;
-    }
-
-    #Menu .container .row .info {
-        align-items: start !important;
+    header .sc-carousel .row {
         flex-direction: column;
+        justify-content: space-evenly;
     }
+
+    header .sc-carousel .sc-carousel-item .part2 {
+        align-items: end;
+    }
+
+    header .sc-carousel .sc-carousel-item .part1 h2 {
+        font-size: 30px;
+    }
+
+    header .sc-carousel .sc-carousel-item .part2 img:nth-of-type(1) {
+        width: 50%;
+    }
+
+    header .sc-carousel .sc-carousel-item .part2 img:nth-of-type(2) {
+        width: 75%;
+        top: -30%;
+        left: 12%;
+    }
+
+    header .sc-carousel>button {
+        top: initial;
+        bottom: 0;
+    }
+
+    header .sc-carousel>button.next {
+        right: 20px;
+    }
+
+    header .sc-carousel>button.prev {
+        right: 80px;
+        left: initial;
+    }
+
+    .popup .box {
+        width: 280px;
+    }
+
+    .popup[data-popup-name="shop"] .box,
+    .popup[data-popup-name="products"] .box {
+        margin: 30px auto;
+        width: 280px;
+    }
+
+    .popup[data-popup-name="products"] .box {
+        margin: 20px auto;
+    }
+
+    #Latest .product .part1 .listImages {
+        display: flex;
+    }
+
+    #Latest .product .part1 .listImages li:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    #Latest .product .part2 h3 {
+        font-size: 18px;
+    }
+
+    #Featured .product {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .popup[data-popup-name="product"] {
+        overflow-y: auto;
+    }
+
+    .popup[data-popup-name="product"] .box {
+        margin: 250px auto 20px;
+        width: 280px;
+    }
+
 
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
-    .title img {
+
+    nav.navbar .navbar-brand {
         width: 20%;
     }
 
-    header nav .container-fluid img {
-        width: 30%;
+    .popup .box {
+        width: 350px;
     }
 
-    header .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 40px;
+    .popup[data-popup-name="shop"] .box,
+    .popup[data-popup-name="products"] .box {
+        width: 350px;
     }
 
-    header .carousel-inner .carousel-item .carousel-caption p {
-        font-size: 14px;
+    #Latest .product .part2 h3 {
+        font-size: 20px;
     }
 
-    header .carousel-inner .carousel-item .carousel-caption button {
-        padding: 10px 20px;
+    .popup[data-popup-name="product"] .box {
+        width: 350px;
     }
-
-    header .carousel-inner .carousel-item .header-book {
-        bottom: 27px;
-        left: 27px;
-    }
-
-    #About .title img {
-        width: 20%;
-    }
-
-    #About .container .intro h2 {
-        font-size: 35px;
-    }
-
-    #Story .container h2 {
-        font-size: 35px;
-    }
-
-    #Special-dish .part2 .title img {
-        width: 25%;
-    }
-
-    #Special-dish .part2 .item h2 {
-        font-size: 35px;
-    }
-
-    #Menu h2 {
-        font-size: 35px;
-    }
-
-    #Menu .container .row .frame {
-        width: 100px;
-        height: 100px;
-    }
-
-    #Chefs .container .title img {
-        width: 20%;
-    }
-
-    #Chefs .container h2 {
-        font-size: 35px;
-    }
-
-    #Chefs .container .row .item .info h2 {
-        font-size: 27px;
-    }
-
-    #Contact .box {
-        width: 340px;
-    }
-
-    #Contact .box .head .info p,
-    #Contact .box .head .info i {
-        font-size: 14px;
-    }
-
-    .book-popUp .box {
-        width: 400px;
-    }
-
-    .book-popUp .box .body h2 {
-        font-size: 30px !important;
-    }
-
-    .book-popUp .box .body form .row:nth-of-type(2) .item input {
-        width: 100%;
-    }
-
 }
 
 @media (min-width: 577px) and (max-width: 1300px) {
-
-
-    header nav .container-fluid {
-        width: 90%;
-        padding: 10px 3px;
+    #Latest .product {
+        width: 75%;
+        margin: auto;
     }
-
-    header nav .container-fluid img {
-        width: 25%;
-        max-width: 130px;
-    }
-
-    .title h5 {
-        font-size: 16px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 50px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button a {
-        font-size: 13px;
-    }
-
-    #About .container .intro h2 {
-        font-size: 40px;
-    }
-
-    #Story .container h2 {
-        font-size: 40px;
-    }
-
-    #Special-dish .part2 .item h2 {
-        font-size: 40px;
-    }
-
-    #Menu .container .title img {
-        width: 15%;
-    }
-
-    #Menu h2 {
-        font-size: 40px;
-    }
-
-    #Menu .container .menu-list {
-        overflow-x: initial;
-    }
-
-    #Menu .container ul {
-        width: initial;
-    }
-
-    #Menu .container .row .info {
-        flex-direction: initial;
-        align-items: center !important;
-    }
-
-    #Chefs .container .title img {
-        width: 16%;
-    }
-
-    #Chefs .container h2 {
-        font-size: 40px;
-    }
-
-    #Contact .box {
-        width: 430px;
-    }
-
-    #Contact .box .head .info p,
-    #Contact .box .head .info i {
-        font-size: 14px;
-    }
-
-    footer p {
-        font-size: 14px;
-    }
-
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
 
-    header nav .container-fluid {
-        width: 90%;
+    nav.navbar .navbar-brand {
+        width: 12%;
     }
 
-    header nav .container-fluid img {
-        width: 27%;
-        max-width: 140px;
-    }
-
-    .title img {
-        width: 18%;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 70px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button {
-        padding: 10x 25px;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button a {
-        font-size: 14px;
-    }
-
-    #About .title img {
-        width: 15%;
-    }
-
-    #Story .title img {
-        width: 25%;
-    }
-
-    #Special-dish .part2 .title img {
-        width: 25%;
-    }
-
-    #Special-dish .part2 .item h2 {
-        font-size: 30px;
-    }
-
-    #Menu .container .row .info {
-        align-items: start !important;
-        flex-direction: column;
-    }
-
-    #Chefs .container .title img {
-        width: 15%;
-    }
-
-    #Menu .container .row .line {
-        top: 32%;
-        left: 47%;
-        width: 1px;
-        height: 60%;
-    }
-
-    #Chefs .container .item {
-        width: initial;
-    }
-
-    #Chefs .container .row .item .info h2 {
-        font-size: 21px;
-    }
-
-    #Contact .box {
-        width: 530px;
-    }
-
-    #Contact .box .body .inputs {
-        flex-wrap: nowrap;
-        width: initial;
-    }
-
-    footer p {
-        font-size: 18px;
-    }
-
-    .book-popUp .box {
-        width: 500px;
-    }
-
-    .book-popUp .box .body h2 {
-        font-size: 40px !important;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1300px) {
-    header nav .container-fluid img {
-        width: 20%;
-    }
-
-    header .carousel-inner .carousel-item .carousel-caption button {
-        padding: 10px 24px;
-    }
-
-    header .carousel-inner .carousel-item .book,
-    header .carousel-inner .carousel-item .square-animation {
-        width: 80px;
-        height: 80px;
-    }
-
-    #About .title img {
-        width: 10%;
-    }
-
-    #About .container .intro h2 {
-        font-size: 50px;
-    }
-
-    #About .container .intro p {
-        width: 35%;
-        padding: 0px;
-    }
-
-    #About .container .item h4 {
-        font-size: 27px;
-        margin-top: 15px;
-    }
-
-    #About .container .row .part {
-        margin-top: 0px;
-    }
-
-    #About .container .row .part:nth-of-type(2) {
-        margin-top: 80px;
-    }
-
-    #Story .title img {
-        width: 20%;
-    }
-
-    #Story .container h2 {
-        font-size: 50px;
-    }
-
-    #Story .container .item .img:nth-of-type(1) {
-        top: -10%;
-        right: -5%;
-    }
-
-    #Story .container .item .img:nth-of-type(1) img {
-        width: 120px;
-    }
-
-    #Story .container .item .img:nth-of-type(1)::before {
-        width: 120px;
-        height: 120px;
-    }
-
-    #Story .container .item .img:nth-of-type(2) {
-        max-width: initial;
-    }
-
-    #Story .container .item .img:nth-of-type(3) {
-        bottom: -10%;
-        left: -10%;
-        width: 50%;
-    }
-
-    #Story .container .item .img:nth-of-type(3) img {
-        max-width: initial;
-    }
-
-    #Menu .container .row .info {
-        align-items: center !important;
+    header .sc-carousel .row {
         flex-direction: row;
     }
 
-    #Menu .container .row .frame {
-        width: 80px;
-        height: 80px;
+    header .sc-carousel .sc-carousel-item .part1,
+    header .sc-carousel .sc-carousel-item .part2 {
+        align-items: center;
     }
 
-    #Menu .container .row .line {
-        top: 40%;
-        left: 48%;
-        height: 50%;
+    header .sc-carousel .sc-carousel-item .part2 img:nth-of-type(1) {
+        width: 70%;
     }
 
-    #Chefs .container .title img {
-        width: 10%;
+    header .sc-carousel .sc-carousel-item .part2 img:nth-of-type(2) {
+        width: 90%;
+        top: -10%;
+        left: 12%;
     }
 
-    #Chefs .container h2 {
-        font-size: 50px;
+    .popup[data-popup-name="shop"] .box,
+    .popup[data-popup-name="products"] .box {
+        margin: 20px auto;
+        width: 750px;
     }
 
-    #Chefs .container .row .item .info h2 {
-        font-size: 29px;
+    #Latest .product .part1 .listImages {
+        display: block;
+    }
+
+    #Latest .product .part1 .listImages li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .popup[data-popup-name="product"] .box {
+        width: 750px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    nav.navbar .navbar-brand {
+        width: 8%;
+    }
+
+    #Latest .product {
+        width: initial;
+    }
+
+    #Latest .product .part1 .part:nth-of-type(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
 
-@media (min-width: 1181px) and (max-width: 1300px) {
-    #Menu .container .row .line {
-        left: 49%;
-    }
-}
+@media (min-width: 1181px) and (max-width: 1300px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
 
 @media (min-width: 1300px) and (max-width: 1400px) {}
