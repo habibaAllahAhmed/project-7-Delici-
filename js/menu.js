@@ -20,7 +20,7 @@ var BreakFast = [
         {
         'id': 4,
         'name': 'Shakshuka With Feta',
-        'image': 'BF-4.webP',
+        'image': 'BF-4.webp',
         'price': '$31.95',
     },
         {
@@ -161,3 +161,4 @@ var allMenu = [
     ...Drinks
 
 ]
+
