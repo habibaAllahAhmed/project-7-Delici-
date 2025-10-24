@@ -10,6 +10,8 @@ let nav = document.querySelector("nav"),
     carouselItem = document.querySelectorAll("#carouselExampleCaptions .carousel-inner .carousel-item"),
     menuLiLinks = document.querySelectorAll("#Menu .container ul li a"),
     menuLiElements = document.querySelectorAll("#Menu .container ul li"),
+    menuLiActive = document.querySelector("#Menu .container ul li.active"),
+    navLiActive = document.querySelector("nav ul li.active"),
     currentMenuLiItem = document.querySelector("#Menu .container .row .item.show"),
     BreakFastLink = document.querySelector("#Menu .container ul li:nth-of-type(1) a"),
     LunchLink = document.querySelector("#Menu .container ul li:nth-of-type(2) a"),
@@ -109,11 +111,12 @@ popUpBoxes.forEach(function (popUpBoxes) {
     })
 });
 
+
 //change active in menu li links
-activateLinks(menuLiElements, "#Menu .container ul li.active");
+activateLinks(menuLiElements, menuLiActive);
 
 //change active in nav links in offcanvas
-activateLinks(navLis, ".offcanvas .offcanvas-body ul li.active");
+activateLinks(navLis, navLiActive);
 
 // prevent default action of menu links in li 
 menuLiLinks.forEach(function (menuLiLink) {
@@ -144,4 +147,5 @@ DrinksLink.addEventListener("click", function () {
 
 // show the breakfast menu
 showMenu(BreakFast , "BreakFast");
+
 
